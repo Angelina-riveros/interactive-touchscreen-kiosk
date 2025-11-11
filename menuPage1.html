@@ -6,11 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
 <!--Refreshes index.html after 180 seconds-->
-  <meta http-equiv="refresh" content="180;url=index.html">  
-<!--Creates 3s fade-in animation-->
+  <meta http-equiv="refresh" content="180;url=index.html">
+<!--Creates 1s fade-in animation-->
   <style>
     body {
-        animation: fadeInAnimation ease 3s;
+        animation: fadeInAnimation ease 1s;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
     }
@@ -22,7 +22,7 @@
             opacity: 1;
         }
     }
-</style>  
+</style>
 </head>
 
 <body>
@@ -34,17 +34,23 @@
 
     <br>
 
-    <div class="flex-container">
-      <div text-align="center">
-        <a href="videoplayer.html">
-        <img src="img4.jpg" class="img-responsive" style="width:100%" alt="Add alt-text"></a>
+    <div class="sidebar">
+    <a href="menuHome.html">Home</a>
+    <a class="active" href="menuPage1.html">Page 1</a>
+    <a href="menuPage2.html">Page 2</a>
+    <a href="menuPage3.html">Page 3</a>
+    <a href="menuEtcetera.html">etcetera</a>
+  </div>
 
-      <div>
-        <p style="font-size:12pt;">This page previews a video and offer users the chance to watch a video that opens in a new page. Remember to add subtitles to all videos.</p>
+  <div class= "maincontent">
+    <h2>Notice the changing menu</h2>
+    <p>This feature helps users understand where the are in the system, what Norman calls the "visibility of the system."</p>
 
-        <div><a href="videoplayer.html" class="button">Play</a></div>
-      </div>
-    </div>
+    <p> </p>
+  </div>
+
+  </body>
+  </html>
 
 </body>
 </html>
